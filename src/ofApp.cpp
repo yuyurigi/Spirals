@@ -79,10 +79,6 @@ void ofApp::draw1(){
     
     lastPos = pos;
     
-    if (colorStep > 0) {
-        _lastPos = lastPos;
-    }
-    
     glm::vec2 d = glm::vec2(cos(a), sin(a));
     float len = scale;
     pos += d * len;

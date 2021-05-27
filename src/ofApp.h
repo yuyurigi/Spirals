@@ -24,7 +24,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
     
     float a, b;
-    glm::vec2 pos, lastPos, _lastPos;
+    glm::vec2 pos, lastPos;
     ofColor color, colors[NUM], bgColor;
     int colorStep;
     ofFbo fbo;
