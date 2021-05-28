@@ -84,13 +84,12 @@ void ofApp::draw1(){
     pos += d * len;
     
     if (colorStep % 100 == 0) {
-        int r = (int)ofRandom(NUM);
-        color = colors[r];
+        r = (int)ofRandom(NUM);
     }
     
     
     ofSetLineWidth(lineWidth);
-    ofSetColor(color);
+    ofSetColor(colors[r]);
     roundLine(lastPos, pos);
     
     colorStep ++;

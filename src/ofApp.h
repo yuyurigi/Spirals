@@ -25,8 +25,8 @@ class ofApp : public ofBaseApp{
     
     float a, b;
     glm::vec2 pos, lastPos;
-    ofColor color, colors[NUM], bgColor;
-    int colorStep;
+    ofColor colors[NUM], bgColor;
+    int colorStep, r;
     ofFbo fbo;
     void draw1();
     
